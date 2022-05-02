@@ -1,0 +1,6 @@
+# Overview of Results
+While difficult to find data to compare to in the real world, our model provides a scalable method by which to schedules nurses in a balanced way. We have found that even for 100 nurses (and thus 700 patients in 1 day), our model takes about a minute or two to produce a balanced schedule. This a great improvement to the current way of manual scheduling, although we do make some simplifying assumptions into our model.
+
+A similar exploration of nurse scheduling was done in this paper: https://www.sciencedirect.com/science/article/pii/S111001681730282X. While our modeling was more granular (hour by hour instead of morning, evening, and night shift), it was cool tos ee that we worked in similar parameters to what real researchers are doing in the field and speaks to the robustness of our model and potential for continued development.
+
+One cool thing we found is that with the right patient schedule, we can further help nurses by applying the hard constraint on the number of their back to back shifts, even with a small time frame of 12 hours. Run the cells below **STOP HERE** to see the at most one double shift constraint at work
