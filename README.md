@@ -23,7 +23,7 @@ python generate_data.py {number of nurses}
 ``` 
 Note that subsequent generations of data will replace old datasets so save the old data if you want it!
 
-Once a dataset of your choosing is made, just run all the cells above the **STOP HERE** cell in the notebook. It will output the average acuity score of the nurses and the 10-hour schedule for each nurse. Check the `RESULTS.md` page for a note on what is below the **STOP HERE**.
+Once a dataset of your choosing is made, just run all the cells above the **STOP HERE** cell in the notebook. It will output the average acuity score of the nurses and the 10-hour schedule for each nurse. Feel free to play around with the number of nurses, although beyond around 150 to 170 nurses the solver begins to take a really long time (> 20 minutes). Check the `RESULTS.md` page for a note on what is below the **STOP HERE**.
 
 You will need ```ortools.sat.python``` and ```numpy``` to run the notebook and data generation file.
 
